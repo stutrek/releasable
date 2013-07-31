@@ -1,0 +1,12 @@
+{
+  "name": "releasable",
+  "version": "1.0.0",
+  "main": "releasable.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

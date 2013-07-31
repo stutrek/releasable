@@ -1,0 +1,25 @@
+{
+  "name": "releasable",
+  "version": "1.0.0",
+  "description": "Know when you can release objects for garbage collection",
+  "main": "releasable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sakabako/releasable.git"
+  },
+  "keywords": [
+    "memory",
+    "release",
+    "retain"
+  ],
+  "author": "Stu Kabakoff",
+  "license": "MIT",
+  "gitHead": "559903c0739f75c3a63395bcf55b31b321ed34b1",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/sakabako/releasable/issues"
+  }
+}
