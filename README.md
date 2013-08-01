@@ -2,8 +2,6 @@
 
 This adds retain/release functionality to any object. This allows you to clean up objects that need to be sent to many parts of an application. One example of usefulness is when you need to continuously update an object, perhaps through ajax polling, but want to stop when the object is no longer needed.
 
-[![browser support](http://ci.testling.com/sakabako/releasable.png)](http://ci.testling.com/sakabako/releasable)
-
 ## Creating a Releasable
 
 ### Basic
