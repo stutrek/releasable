@@ -1,4 +1,12 @@
-define([],function(){
+(function( factory ) {
+	if (typeof define !== 'undefined' && define.amd) {
+		define([], factory);
+	} else if (typeof module !== 'undefined' && module.exports) {
+		module.exports = factory();
+	} else {
+		window.releasable = factory();
+	}
+})(function(){
 	
 	function noop(){}
 
@@ -33,7 +41,9 @@ define([],function(){
 	return {
 		mixin: mixin,
 		create: function( releasedCallback, retainedCallback, singleReleaseCallback ) {
-			return mixin({}, releasedCallback, retainedCallback, singleReleaseCallback );
+			var target = {};
+			mixin(target, releasedCallback, retainedCallback, singleReleaseCallback );
+			return target;
 		}
 	};
 

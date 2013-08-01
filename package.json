@@ -17,9 +17,23 @@
   ],
   "author": "Stu Kabakoff",
   "license": "MIT",
-  "gitHead": "559903c0739f75c3a63395bcf55b31b321ed34b1",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/sakabako/releasable/issues"
+  },
+  "devDependencies": {
+    "tape": "~0.0.4"
+  },
+  "testling": {
+      "browsers": [
+          "ie/6..latest",
+          "firefox/3..5", "firefox/19..nightly",
+          "chrome/4..7", "chrome/24..canary",
+          "opera/10..next",
+          "safari/4..latest",
+          "iphone/6",
+          "ipad/6"
+      ],
+      "files": "test/tests.js"
   }
 }
