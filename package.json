@@ -34,6 +34,6 @@
           "iphone/6",
           "ipad/6"
       ],
-      "files": "test/tests.js"
+      "files": "tests/tests.js"
   }
 }
