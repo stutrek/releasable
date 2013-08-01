@@ -32,7 +32,8 @@
           "opera/10..next",
           "safari/4..latest",
           "iphone/6",
-          "ipad/6"
+          "ipad/6",
+          "android-browser/4.2"
       ],
       "files": "tests/tests.js"
   }
