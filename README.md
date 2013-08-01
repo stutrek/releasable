@@ -5,7 +5,7 @@ This adds retain/release functionality to any object. This allows you to clean u
 ## Creating a Releasable
 
 ### Basic
- * `releaseable.mixin( object, releasedCallback )` - Makes an object releaseable.
+ * `releaseable.mixin( object, releasedCallback )` - Makes an object releaseable. Calls `releasedCallback( object )` when the object can be released.
 
 ### Advanced
  * `releaseable.mixin( object, releasedCallback [, retainedCallback, everyReleaseCallback] )` - Makes an object releaseable, with optional additional callbacks.
