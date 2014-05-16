@@ -1,6 +1,6 @@
 {
   "name": "releasable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Know when you can release objects for garbage collection",
   "main": "releasable.js",
   "scripts": {
@@ -25,16 +25,18 @@
     "tape": "~0.0.4"
   },
   "testling": {
-      "browsers": [
-          "ie/6..latest",
-          "firefox/3..5", "firefox/19..nightly",
-          "chrome/4..7", "chrome/24..canary",
-          "opera/10..next",
-          "safari/4..latest",
-          "iphone/6",
-          "ipad/6",
-          "android-browser/4.2"
-      ],
-      "files": "tests/tests.js"
+    "browsers": [
+      "ie/6..latest",
+      "firefox/3..5",
+      "firefox/19..nightly",
+      "chrome/4..7",
+      "chrome/24..canary",
+      "opera/10..next",
+      "safari/4..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/4.2"
+    ],
+    "files": "tests/tests.js"
   }
 }
